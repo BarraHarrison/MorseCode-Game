@@ -37,7 +37,7 @@ function startPractice() {
 // random morseCode generated
 function generateMorseCodeWord() {
     currentMorseCodeWord = '';
-    for (let i = 0; i < 1; i++) { // up to 4 characters of morse code
+    for (let i = 0; i < 4; i++) { // up to 4 characters of morse code
         const randomLetter = letters[Math.floor(Math.random() * letters.length)];
         currentMorseCodeWord += morseCodeMap[randomLetter] + ' ';
     }
