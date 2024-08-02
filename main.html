@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Morse Code Project</title>
+</head>
+<header>
+    <h1><i class="fa-solid fa-code-commit"></i> Morse Code <i class="fa-solid fa-code-commit"></i></h1>
+    <div class="nav-bar">
+        <ul>
+            <li class="nav-links">Tutorial</li>
+            <li class="nav-links"><a href="practice-page.html">Practice Morse Code</a></li>
+        </ul>
+    </div>
+</header>
+    <body>
+        <div class="tutorial-container">
+            <div class="info-div">
+                <h1>What is Morse Code?</h1>
+                <p>Morse code is a way to send messages using a series of short and long sounds or flashes of light. <br>
+                    Think of it like a secret language that uses "dots" and "dashes" instead of letters. <br>
+                    A "dot" is a quick, short sound, like a tap on a table, and a "dash" is a longer sound, like a knock that lasts a bit longer. <br>
+                    Each letter of the alphabet has its own special pattern of dots and dashes. <br>
+                    For example, the letter "A" is a dot followed by a dash (.-), and the letter "B" is a dash followed by three dots (-...).
+                </p>
+                <!-- Insert the morse code in the next div tag, with five letters/morse code per row -->
+                <div class="morse-code-details">
+                    <div>
+                        <p>A: <span>.-</span></p>
+                        <p>B: <span>-...</span></p>
+                        <p>C: <span>-.-.</span></p>
+                        <p>D: <span>-..</span></p>
+                        <p>E: <span>.</span></p>
+                    </div>
+                    <div>
+                        <p>F: <span>..-.</span></p>
+                        <p>G: <span>--.</span></p>
+                        <p>H: <span>....</span></p>
+                        <p>I: <span>..</span></p>
+                        <p>J: <span>.---</span></p>
+                    </div>
+                    <div>
+                        <p>K: <span>-.-</span></p>
+                        <p>L: <span>.-..</span></p>
+                        <p>M: <span>--</span></p>
+                        <p>N: <span>-.</span></p>
+                        <p>O: <span>---</span></p>
+                    </div>
+                    <div>
+                        <p>P: <span>.--.</span></p>
+                        <p>Q: <span>--.-</span></p>
+                        <p>R: <span>.-.</span></p>
+                        <p>S: <span>...</span></p>
+                        <p>T: <span>-</span></p>
+                    </div>
+                    <div>
+                        <p>U: <span>..-</span></p>
+                        <p>V: <span>...-</span></p>
+                        <p>W: <span>.--</span></p>
+                        <p>X: <span>-..-</span></p>
+                        <p>Y: <span>-.--</span></p>
+                        <p>Z: <span>--..</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="practice-container">
+                <div class="box-one">
+                    <input class="letters" type="text" placeholder="Write your text here">
+                    <p>Here you can write letters from the alphabet</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="box-two">
+                    <input class="morse-code" type="text" placeholder="Morse Code">
+                    <p>The letters you write will appear here in morse code.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Font Awesome link for icons -->
+        <script src="https://kit.fontawesome.com/7b01594302.js" crossorigin="anonymous"></script>
+        <script src="morse-code.js"></script>
+        <script src="tutorial-page.js"></script>
+    </body>
+</html>

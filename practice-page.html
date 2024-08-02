@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Morse Code Project</title>
+</head>
+<header>
+    <h1><i class="fa-solid fa-code-commit"></i> Morse Code <i class="fa-solid fa-code-commit"></i></h1>
+    <div class="nav-bar">
+        <ul>
+            <li class="nav-links"><a href="main.html">Tutorial</a></li>
+            <li class="nav-links">Practice Morse Code</li>
+        </ul>
+    </div>
+</header>
+    <body>
+        <div class="morse-code-quiz">
+            <h2>Translate as many morse code words as you can in under 60 seconds</h2>
+            <div class="morse-code-practice">
+                <input type="text" class="morse-code-practice" id="morse-code-practice" placeholder="Morse code appears here" readonly>
+                <button class="startButton" id="startButton" name="startButton">Start Practice</button>
+            </div>
+            <div class="user-translate">
+                <input type="text" placeholder="Type the translation here" class="user-translate" id="user-translate">
+                <button class="submitButton" id="submitButton" name="submitButton">Submit</button>
+            </div>
+            <div class="timer-div">
+                <i class="fa-solid fa-hourglass"></i> <p>You have <span id="timer">60</span> seconds to translate the morse code</p> <i class="fa-solid fa-hourglass"></i>
+            </div>
+            <div class="scoreboard">
+                <p class="current-score">Your Score: <span id="current-score">0</span></p>
+                <p class="best-score">Best Score: <span id="best-score">0</span></p>
+            </div>
+        </div>
+
+        <!-- Font Awesome link for icons -->
+        <script src="https://kit.fontawesome.com/7b01594302.js" crossorigin="anonymous"></script>
+        <script src="morse-code.js"></script>
+        <script src="practice.js"></script>
+    </body>
+</html>

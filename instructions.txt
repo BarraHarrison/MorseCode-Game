@@ -1,0 +1,35 @@
+Create an application with 2 "pages"
+
+    - I should be able to click a tab and go back and forth between each page
+    - Color and theme should match, but the elements on each page should be disctinct
+
+
+Page 1.
+    Should have a section that explains how to read and write Morse Code
+    
+    There should be a section where a user can type in plain english and see their text translated into morse code
+     (these could be a separate pages, drop downs, what have you)
+
+
+One page will be a "tutorial and practice" page
+
+
+
+
+Page 2.
+    This page will be for testing the user and their skill in translating FROM Morse Code into English
+    
+    There should be a "start" button on this page that starts the "quiz", afterward Morse Code will start to appear one word at a time. 
+    
+    The user will type out the translation for the Morse Code and submit it, if it is correct they receive a point, and a new word appears
+    
+    Continue this process until the timer reaches zero
+
+
+STRETCH GOALS:
+    Record the users score, but replace it if and ONLY IF they recieve a higher score
+    Instead of hardcoded JSON for a list of words, take a list of words from an already existing source (ask for recommendations for Kaggle/API if you are lost)
+    Store the users score, ask their name, and send and prepare a POST request to store that to allow for "High Scores" to be tracked after the window is reset
+
+
+Hint: hint Javascript Math for timer may be necessary
